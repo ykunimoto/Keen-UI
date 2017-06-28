@@ -25,7 +25,7 @@
                     @keydown.enter="keydownEnter" :debounce="debounce"
 
                     :value="value" :disabled="disabled" v-if="!multiLine"
-                    v-autofocus="autofocus"
+                    :autofocus="autofocus"
                 >
 
                 <textarea
@@ -63,7 +63,6 @@
 import UiIcon from './UiIcon.vue'
 
 import EventBus from './helpers/event-bus'
-import autofocus from './directives/autofocus'
 import HasTextInput from './mixins/HasTextInput'
 import ValidatesInput from './mixins/ValidatesInput'
 
@@ -248,10 +247,6 @@ export default {
 
     components: {
         UiIcon
-    },
-
-    directives: {
-        autofocus
     },
 
     mixins: [

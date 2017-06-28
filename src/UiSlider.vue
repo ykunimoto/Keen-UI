@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import Draggabilly from 'draggabilly';
+import Draggabilly from './lib/draggabilly';
 
 import UiIcon from './UiIcon.vue';
 import EventBus from './helpers/event-bus'

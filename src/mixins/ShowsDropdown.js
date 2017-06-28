@@ -1,4 +1,4 @@
-import Drop from 'tether-drop'
+import Drop from '../lib/tether-drop'
 import classlist from '../helpers/classlist'
 import EventBus from '../helpers/event-bus'
 import typeCheck from '../helpers/type-check'

@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Tooltip from 'tether-tooltip'
+import Tooltip from './lib/tether-tooltip'
 import typeCheck from './helpers/type-check'
 
 export default {
